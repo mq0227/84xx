@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="clo/la/platform/packages/apps/SnapdragonCamera" path="vendor/codeaurora/packages/apps/SnapdragonCamera" revision="12a78c7bb2d8a3dbb9b005584951efd90b26ba90" upstream="refs/heads/camera-SnapdragonCamera.lnx.5.0.r2-rel">
+    <linkfile src="app_snapcam_system_product.mk" dest="vendor/qcom/defs/product-defs/vendor/app_snapcam_product.mk"/>
+  </project>
+  <project name="clo/la/platform/vendor/opensource/camera-kernel" path="vendor/qcom/opensource/camera-kernel" revision="195bbfdc0a370dd61902b8039358cb9b14227361" upstream="refs/heads/camera-kernel.lnx.5.0.r2-rel">
+    <linkfile src="board.mk" dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk"/>
+    <linkfile src="product.mk" dest="vendor/qcom/defs/product-defs/vendor/camera-kernel_product.mk"/>
+  </project>
+</manifest>
